@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRAME — Produtora Audiovisual</title>
+  <meta
+    name="description"
+    content="FRAME é uma produtora audiovisual com foco em direção visual, filmes para marcas, fotografia e conteúdo digital."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- INTRO CINEMATOGRÁFICA -->
+  <div class="intro-screen" id="intro-screen">
+    <div class="intro-stage intro-count active" id="intro-count">
+      <div class="intro-number" id="intro-number">3</div>
+    </div>
+
+    <div class="intro-stage intro-black" id="intro-black-1"></div>
+
+    <div class="intro-stage intro-logo-stage" id="intro-logo-stage">
+      <img src="images/FRAME.png" alt="FRAME" class="intro-logo" />
+      <div class="intro-logo-text"></div>
+    </div>
+
+    <div class="intro-stage intro-black" id="intro-black-2"></div>
+  </div>
+
+  <!-- FUNDO DE VÍDEO -->
+  <div class="site-bg-video">
+    <video autoplay muted loop playsinline>
+      <source src="images/video-about.mp4" type="video/mp4" />
+    </video>
+    <div class="site-bg-overlay"></div>
+    <div class="site-bg-vignette"></div>
+  </div>
+
+  <header class="header" id="topo">
+    <div class="container header-inner">
+      <a href="#topo" class="brand" aria-label="FRAME">
+        <img src="images/FRAME.png" alt="Logo FRAME" />
+        <span class="brand-name">FRAME</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="page-content" class="page-content is-hidden">
+    <section class="hero" id="hero">
+      <div class="hero-overlay-soft"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">PRODUTORA AUDIOVISUAL</p>
+          <h1>Imagem com direção, ritmo e presença.</h1>
+          <p class="hero-text">
+            Conteúdo visual para marcas que querem se destacar com mais força.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+          </div>
+        </div>
+
+        <div class="hero-feature">
+          <div class="hero-feature-card">
+            <video autoplay muted loop playsinline>
+              <source src="images/videoprinicpal.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-fade"></div>
+    </section>
+
+    <section class="intro reveal" id="sobre">
+      <div class="container intro-cards">
+        <article class="floating-card intro-card-title">
+          <p class="section-kicker">FRAME</p>
+          <h2>Direção visual com acabamento profissional.</h2>
+        </article>
+
+        <article class="floating-card intro-card-text">
+          <p>
+            A FRAME desenvolve vídeos, fotografia e conteúdo digital com foco em
+            estética, presença e percepção de valor.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">PROJETOS</p>
+          <h2>Seleção visual da FRAME.</h2>
+          <p>Produções, estudos e materiais com direção estética forte.</p>
+        </div>
+
+        <div class="projects-layout">
+          <article class="project-large reveal">
+            <div class="project-media large">
+              <video autoplay muted loop playsinline>
+                <source src="images/video1.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="project-meta">
+              <span>VIDEO MAKER</span>
+              <h3>Movimento, ritmo e impacto visual.</h3>
+              <p>Produções pensadas para presença de marca e percepção de valor.</p>
+            </div>
+          </article>
+
+          <div class="projects-side">
+            <article class="project-small reveal">
+              <div class="project-media small">
+                <video autoplay muted loop playsinline>
+                  <source src="images/video2.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="project-meta compact">
+                <span>STORY</span>
+                <h3>Conteúdo vertical.</h3>
+              </div>
+            </article>
+
+            <article class="project-small reveal">
+              <div class="project-media small">
+                <video autoplay muted loop playsinline>
+                  <source src="images/video3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="project-meta compact">
+                <span>FOTO</span>
+                <h3>Imagem com direção.</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="projects-bottom reveal">
+          <div class="info-panel">
+            <span class="panel-kicker">LINGUAGEM VISUAL</span>
+            <h3>Conteúdo desenvolvido para prender atenção e transmitir qualidade.</h3>
+            <p>
+              Cada projeto é construído para unir estética, composição e clareza
+              visual, criando peças mais fortes para portfólio, redes e marcas.
+            </p>
+          </div>
+
+          <div class="stats-panel">
+            <div class="stat-box">
+              <strong>Vídeo</strong>
+              <span>Captação e edição</span>
+            </div>
+            <div class="stat-box">
+              <strong>Foto</strong>
+              <span>Imagem com direção</span>
+            </div>
+            <div class="stat-box">
+              <strong>Social</strong>
+              <span>Conteúdo para redes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="services-top reveal">
+          <div class="section-head services-head">
+            <p class="section-kicker">SERVIÇOS</p>
+            <h2>O que a FRAME faz.</h2>
+            <p>Estrutura visual completa para presença de marca e conteúdo.</p>
+          </div>
+
+          <div class="services-aside">
+            <div class="mini-note">
+              <span>FOCO</span>
+              <p>Estética, presença e comunicação visual com acabamento premium.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span>01</span>
+            <h3>Captação</h3>
+            <p>Vídeos para marcas, produtos e presença digital.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span>02</span>
+            <h3>Edição</h3>
+            <p>Ritmo, identidade e acabamento visual.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span>03</span>
+            <h3>Conteúdo Social</h3>
+            <p>Reels, stories e vídeos curtos com impacto.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span>04</span>
+            <h3>Fotografia</h3>
+            <p>Composição e direção para imagem de marca.</p>
+          </article>
+        </div>
+
+        <div class="services-bottom reveal">
+          <div class="service-highlight">
+            <h3>Mais que execução: direção visual.</h3>
+            <p>
+              A FRAME não entrega só conteúdo. Entrega imagem com intenção,
+              identidade e apresentação profissional.
+            </p>
+          </div>
+
+          <div class="service-columns">
+            <div>
+              <span class="tiny-title">FORMATOS</span>
+              <p>Institucional, social media, branding visual e conteúdo autoral.</p>
+            </div>
+            <div>
+              <span class="tiny-title">RESULTADO</span>
+              <p>Materiais mais fortes para posicionamento, percepção e portfólio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact-layout">
+        <div class="contact-main reveal">
+          <div class="contact-text">
+            <p class="section-kicker">CONTATO</p>
+            <h2>Vamos criar algo forte visualmente.</h2>
+            <p>
+              Um espaço para apresentar a FRAME, mostrar autoridade visual e receber
+              novos projetos com uma presença mais profissional.
+            </p>
+          </div>
+
+          <div class="contact-points">
+            <div class="contact-point">
+              <strong>Direção</strong>
+              <span>Estética clara e linguagem visual consistente.</span>
+            </div>
+            <div class="contact-point">
+              <strong>Entrega</strong>
+              <span>Vídeo, fotografia e conteúdo para presença digital.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-side reveal">
+          <div class="contact-box">
+            <a href="https://wa.me/5511985494733" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://github.com/ederfelixsilva" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:seuemail@email.com">E-mail</a>
+          </div>
+
+          <div class="contact-extra">
+            <div class="mini-card">
+              <span class="tiny-title">DISPONÍVEL PARA</span>
+              <p>Projetos autorais, marcas, conteúdos sociais e portfólio visual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 FRAME. Todos os direitos reservados.</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
